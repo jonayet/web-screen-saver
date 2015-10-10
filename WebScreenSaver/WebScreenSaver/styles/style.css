@@ -1,21 +1,76 @@
-﻿#screen-clock{
-    margin:0 auto;
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    width: 300px;
-    height: 80px;
-    z-index: 7;
-    
-
-    border: 2px;
-    padding: 15px;  
-    background-color: black;
-    -webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	color: white;
-    opacity: 1;
-	font-size:35px;
-	font-weight:bold
+﻿#screen-cover {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: 5;
+    visibility: hidden;
+    opacity: 0;
 }
 
+#screen-clock {
+    position: fixed;
+    width: 180px;
+    height: 50px;
+    right: 10px;
+    bottom: 10px;
+    padding: 15px;
+
+    background-color: black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border: 10px;
+
+    text-align:center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+    z-index: 5;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#slider1_container {
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*border: 2px solid red;*/
+    width: 600px;
+    height: 300px;
+    z-index: 6;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#slider1_slides_container {
+    position: absolute;
+    /*border: 2px solid green;*/
+    width: 600px; 
+    height: 300px;
+    overflow: hidden; 
+}
+
+.slider1_slides_caption {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 200px;
+    height: 50px;
+    text-align:center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fade {
+    -webkit-transition: visibility 0.5s, opacity 0.5s ease-in-out;
+    -moz-transition: visibility 0.5s, opacity 0.5s ease-in-out;
+    -o-transition: visibility 0.5s, opacity 0.5s ease-in-out;
+    transition: visibility 0.5s, opacity 0.5s ease-in-out;
+}

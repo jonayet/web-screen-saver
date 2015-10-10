@@ -3,14 +3,51 @@
 <head>
     <title></title>
 	<meta charset="utf-8" />
+    <link href="styles/style.css" rel="stylesheet">
 </head>
 <body>
-    <p>Hello</p>
+    <div>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+    </div>
+    <div class="fade" id="screen-cover"></div>
+    <div class="fade" id="screen-clock"></div>
+
+    <div class="fade" id="slider1_container">
+        <!-- Slides Container -->
+        <div u="slides" id="slider1_slides_container">
+            <div>
+                <img u="image" src="contents/1.jpg" />
+                <div u="caption" t="L" class="slider1_slides_caption">
+                    I am a caption!
+                </div>
+                <div u="caption" t="R" class="slider1_slides_caption" style="top:100px">
+                    I am a caption 2!
+                </div>
+            </div>
+            <div><img u="image" src="contents/2.jpg" /></div>
+            <div class="slider1_slides_caption">This is a Text content</div>
+            <div>
+                <div u="player" style="position: relative; top: 0px; left: 0px; width: 640px; height: 390px; overflow: hidden;">
+                    <!-- iframe in ebay page is not allowed, youtube iframe video is not supported for ebay listing -->
+                    <iframe pHandler="ytiframe" pHideControls="0" width="640" height="390" url="http://www.youtube.com/embed/H7jtC8vjXw8?autoplay=1"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="scripts/jquery-2.1.4.min.js"></script>
     <script src="scripts/idle-timer.1.0.1.min.js"></script>
     <script src="scripts/moment.min.js"></script>
-    <script src="scripts/jquery.blockUI.min.js"></script>
+    <script src="scripts/jssor.js"></script>
+    <script src="scripts/jssor.slider.js"></script>
+    <script src="scripts/jssor.player.ytiframe.js"></script>
     <script src="scripts/startup.js"></script>
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
 </body>
 </html>
