@@ -32,6 +32,7 @@ $JssorPlayer$["ytiframe"] = function (playerElement, playerInstanceElement) {
     //this.$GetError()                  //retrieve error of the player (better update this property if there is fatal error that makes the player unavailable)
 
     var _Self = this;
+    window.ytplayer = _Self;
 
     var _FrameConnected;
     var _MessageFrameId = "ytiframe_" + playerElement.pId;

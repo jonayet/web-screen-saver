@@ -53,6 +53,7 @@
     <Content Include="scripts\jssor.slider.js" />
     <Content Include="scripts\moment.min.js" />
     <Content Include="scripts\startup.js" />
+    <Content Include="scripts\youtube-player.js" />
     <Content Include="styles\style.css" />
   </ItemGroup>
   <PropertyGroup>
