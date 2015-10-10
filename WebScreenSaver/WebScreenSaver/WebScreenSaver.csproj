@@ -44,17 +44,18 @@
   <ItemGroup>
     <Content Include="contents\1.jpg" />
     <Content Include="contents\2.jpg" />
+    <Content Include="contents\video1.mp4" />
     <Content Include="index.html" />
     <Content Include="scripts\idle-timer.1.0.1.min.js" />
     <Content Include="scripts\jquery-2.1.4.min.js" />
-    <Content Include="scripts\jquery.blockUI.min.js" />
     <Content Include="scripts\jssor.js" />
-    <Content Include="scripts\jssor.player.ytiframe.js" />
     <Content Include="scripts\jssor.slider.js" />
     <Content Include="scripts\moment.min.js" />
+    <Content Include="scripts\page-visibility.js" />
     <Content Include="scripts\startup.js" />
-    <Content Include="scripts\youtube-player.js" />
+    <Content Include="scripts\video.min.js" />
     <Content Include="styles\style.css" />
+    <Content Include="styles\video-js.min.css" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
