@@ -1,6 +1,6 @@
 ﻿(function () {
     $(function () {
-        var inactiveTime = 10000;
+        var inactiveTime = 3000;
         var slideDelay = 3000;
         var videoSlideIndex = 3;
 
